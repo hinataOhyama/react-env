@@ -11,4 +11,5 @@ export default [
   ...tseslint.configs.recommended,
   pluginReactConfig,
   { rules: { 'react/react-in-jsx-scope': 'off' } },
+  { settings: { react: { version: 'detect' } } },
 ];
